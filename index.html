@@ -16,19 +16,53 @@
     <nav id= "header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left">
+          <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img" alt="Logo image"></div>
           </a>
           <div class="navbar-brand">
             <a href="index.html"><h1>ACTIVITIES</h1></a>
           </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
 
-      </div>
-    </nav>
-  </header>
-  
-
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-road"></span><br class="hidden-xs"> Kind of Sports</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-calendar"></span><br class="hidden-xs"> Calendar</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:000-000-0000">
+                <span>000-000-0000</span></a>
+              <div>* We Can Help</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+        </div><!-- .container -->
+        </nav><!-- #header-nav -->
+        </header>
+        
+        <div id="call-btn" class="visible-xs">
+          <a class="btn" href="tel:000-000-0000">
+            <span class="glyphicon glyphicon-earphone"></span>
+            000-000-0000
+          </a>
+        </div>
+        <div id="xs-deliver" class="text-center visible-xs">* We Can Help</div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

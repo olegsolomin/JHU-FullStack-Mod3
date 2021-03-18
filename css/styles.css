@@ -24,14 +24,42 @@
  .navbar-brand h1{
      font-family: 'Monoton', serif;
      color: oldlace;
-     font-size: 4em;
+     font-size: 2em;
      text-transform: uppercase;
      font-weight: bold;
-     text-shadow: grey  3px 3px 3px;
+     text-shadow: slategrey  3px 3px 3px;
      line-height: .75;
  }
 
  .navbar-brand a:hover, .navbar-brand a:focus {
      text-decoration: none;
  }
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: lightcyan;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: slategrey;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 10px;
+}
+#phone div { /* We Can Help */
+  color: lightcyan;
+  text-align: right;
+  padding-right: 15px;
+
+
  
