@@ -1,4 +1,4 @@
- body {
+body {
      font-size: 16px;
      color: azure;
      background-color: lightskyblue;
@@ -27,8 +27,7 @@
      font-size: 2em;
      text-transform: uppercase;
      font-weight: bold;
-     text-shadow: slategrey  3px 3px 3px;
-     line-height: .75;
+     text-shadow: black 5px 5px; 
  }
 
  .navbar-brand a:hover, .navbar-brand a:focus {
@@ -49,21 +48,8 @@
   font-size: 1.8em;
 }
 
-#phone {
-  margin-top: 5px;
-}
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 10px;
-}
-#phone div { /* We Can Help */
-  color: lightcyan;
-  text-align: right;
-  padding-right: 15px;
-
-}
- .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+ .navbar-header button.navbar-toggle .navbar-header .icon-bar {
+  border: 1px solid lightcyan;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
