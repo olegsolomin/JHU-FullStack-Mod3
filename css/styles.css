@@ -65,13 +65,6 @@ body {
     padding-top: 5px;
     font-size: 6vw; /* 1vw = 1% of viewport width */
   }
-  .navbar-brand p { /* Kosher cert */
-    font-size: .6em;
-    margin-top: 12px;
-  }
-  .navbar-brand p img { /* Star-K */
-    height: 20px;
-  }
 
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
