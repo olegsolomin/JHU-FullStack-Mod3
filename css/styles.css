@@ -76,9 +76,22 @@ body {
   /* End Header */
 }
 
+#title {
+    position: absolute;
+    top: 100;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lora';
+    color: steelblue;
+    text-shadow: snow 1px 1px; 
+    font-size: 2em;
+    text-transform: uppercase;
+}
 #cycling-tile, #skiing-tile, #running-tile {
     height: 1000px;
-    width: auto;
+    width: 100%;
+    margin-top: 50px;
     margin-bottom: 15px;
     position: relative;
     border: 2px solid steelblue;
@@ -86,4 +99,27 @@ body {
 }
 #cycling-tile:hover, #skiing-tile:hover, #running-tile:hover {
     box-shadow: 0 1px 5px 1px slategray;
+}
+
+
+#cycling-tile span, #skiing-tile span, #running-tile span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+#cycling-tile, #skiing-tile, #running-tile, #text-tile {
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    overflow: scroll;
+}
+#cycling-tile, #text-tile:hover {
+text-decoration: none;
 }
